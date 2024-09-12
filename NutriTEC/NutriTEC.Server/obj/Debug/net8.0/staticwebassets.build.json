@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "67yjbGCliYo8XwRDNP51Tm7MYSlvZzqrmwYTA0M+5EM=",
+  "Source": "NutriTEC.Server",
+  "BasePath": "_content/NutriTEC.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\nutritec.client.esproj",
+      "Version": 2,
+      "Source": "nutritec.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

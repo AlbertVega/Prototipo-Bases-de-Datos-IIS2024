@@ -1,0 +1,1 @@
+C:\Users\alber\Documents\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\nutritec.client\obj\Debug\nutritec.client.esproj.CoreCompileInputs.cache
