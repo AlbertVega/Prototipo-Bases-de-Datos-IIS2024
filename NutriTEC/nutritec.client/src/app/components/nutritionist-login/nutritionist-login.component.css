@@ -1,0 +1,68 @@
+/* fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.small-container {
+  position: relative;
+  height: 33px; /* Ajusta la altura según sea necesario */
+}
+
+  .small-container p {
+    display: block;
+    width: 100%;
+  }
+
+  .small-container small {
+    position: absolute;
+    top: 100%; /* Coloca el label debajo del input */
+    left: 0px;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #abe7ff9f;
+  position: absolute;
+  top: 0;
+}
+
+.box-area {
+  width: 1000px;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in forwards;
+}
+
+.right-box {
+  padding: 150px 30px 150px 30px;
+}
+
+.left-box {
+  border-radius: 30px 0 0 30px;
+  background-image: url('../../assets/client-login.png');
+  background-size: cover;
+  background-position: 45%;
+}
+
+.box-area {
+  border-radius: 30px 30px 30px 30px;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btn {
+  transition: all 0.5s ease 0s;
+  background-color: #062A38;
+  font-family: 'Poppins';
+  color: white;
+}
