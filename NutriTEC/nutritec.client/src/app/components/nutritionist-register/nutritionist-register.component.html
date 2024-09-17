@@ -1,0 +1,190 @@
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row box-area bg-white shadow h-100">
+
+      <div class="col-md-4 left-box">
+      </div>
+
+      <div class="col-md-8 right-box">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <h1 class="fs-1">Bienvenido a NutriTEC</h1>
+          </div>
+          <div class="text mb-3" style="text-align: left; padding-left: 15px;">
+            <p class="fs-5">Registro de nutricionista</p>
+          </div>
+
+          <form class="needs-validation" [formGroup]="form">
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="nombre" class="col-form-label">Nombre</label>
+              </div>
+              <div class="col-sm-5">
+                <div class="input-container">
+                  <input formControlName="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre" autocomplete="off">
+                  <small *ngIf="form.controls['nombre'].dirty && form.hasError('required', 'nombre')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+              <div class="col-sm-5" style="padding-left: 10px;">
+                <div class="input-container">
+                  <input formControlName="apellidos" type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
+                  <small *ngIf="form.controls['apellidos'].dirty && form.hasError('required', 'apellidos')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="nacimiento" class="col-form-label">Fecha de nacimiento</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="nacimiento" type="date" class="form-control" id="nacimiento">
+                  <small *ngIf="form.controls['nacimiento'].dirty && form.hasError('required', 'nacimiento')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="cedula" class="col-form-label">Cédula</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="cedula" type="text" class="form-control form-control-lg bg-light fs-6" id="cedula" placeholder="Cédula">
+                  <small *ngIf="form.controls['cedula'].dirty && form.hasError('required', 'cedula')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="codnutricionista" class="col-form-label">Código de nutricionista</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="codnutricionista" type="text" class="form-control form-control-lg bg-light fs-6" id="codnutricionista" placeholder="Código">
+                  <small *ngIf="form.controls['codnutricionista'].dirty && form.hasError('required', 'codnutricionista')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="peso" class="col-form-label">Peso</label>
+              </div>
+              <div class="col-sm-4">
+                <div class="input-container">
+                  <input formControlName="peso" type="number" step="0.01" class="form-control form-control-lg bg-light fs-6" id="peso" placeholder="Peso (kg)">
+                  <small *ngIf="form.controls['peso'].dirty && form.hasError('required', 'peso')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+              <div class="col-sm-1" style="text-align: left; padding-left: 20px;">
+                <label for="IMC" class="col-form-label">IMC</label>
+              </div>
+              <div class="col-sm-5" style="padding-left: 10px;">
+                <div class="input-container">
+                  <input formControlName="IMC" type="number" step="0.01" class="form-control form-control-lg bg-light fs-6" id="IMC" placeholder="Indice Masa Corporal">
+                  <small *ngIf="form.controls['IMC'].dirty && form.hasError('required', 'IMC')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="direccion" class="col-form-label">Dirección</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="direccion" type="text" class="form-control form-control-lg bg-light fs-6" id="direccion" placeholder="Dirección">
+                  <small *ngIf="form.controls['direccion'].dirty && form.hasError('required', 'direccion')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left; padding-right: 10px;">
+                <label for="informacion_cobro" class="col-form-label">Información de Cobro</label>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-container">
+                  <input formControlName="numerotarjeta" type="text" class="form-control" id="numerotarjeta" placeholder="Número de tarjeta" autocomplete="off">
+                  <small *ngIf="form.controls['numerotarjeta'].dirty && form.hasError('required', 'numerotarjeta')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+              <div class="col-sm-4" style="padding-left: 10px;">
+                <div class="input-container">
+                  <select formControlName="tipocobro" class="form-select" id="tipocobro">
+                    <option selected disabled hidden>Tipo de cobro</option>
+                    <option value="semanal">Semanal</option>
+                    <option value="mensual">Mensual</option>
+                    <option value="anual">Anual</option>
+                  </select>
+                  <small *ngIf="form.controls['tipocobro'].dirty && form.hasError('required', 'tipocobro')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="foto" class="col-form-label">Foto</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input type="file" class="form-control form-control-lg bg-light fs-6" id="foto">
+                  <!--<small *ngIf="form.controls['foto'].dirty && form.hasError('required', 'foto')" class="text-danger">*campo requerido</small>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="email" class="col-form-label">Correo</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="email" type="email" class="form-control" id="email" placeholder="Correo electrónico" autocomplete="off">
+                  <small *ngIf="form.controls['email'].dirty && form.hasError('required', 'email')" class="text-danger">*campo requerido</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-bottom: 40px;">
+              <div class="col-sm-2" style="text-align: left;">
+                <label for="password" class="col-form-label">Contraseña</label>
+              </div>
+              <div class="col-sm-10">
+                <div class="input-container">
+                  <input formControlName="password" type="password" class="form-control" id="password" placeholder="Cree una contraseña" autocomplete="off">
+                  <div class="passwordHelp text-muted d-flex" *ngIf="passwordFormField?.dirty">
+                    <span class="me-2 ms-2" [ngClass]="{'text-success': passwordFormField?.value?.match('^(?=.*[A-Z])'), 'text-danger': !passwordFormField?.value?.match('^(?=.*[A-Z])')}">
+                      letra mayúscula
+                    </span> <br />
+                    <span class="me-2" [ngClass]="{'text-success': passwordFormField?.value?.match('(?=.*[a-z])'), 'text-danger': !passwordFormField?.value?.match('(?=.*[a-z])')}">
+                      letra minúscula
+                    </span><br />
+                    <span class="me-2" [ngClass]="{'text-success': passwordFormField?.value?.match('(.*[0-9].*)'), 'text-danger': !passwordFormField?.value?.match('(.*[0-9].*)')}">
+                      un número
+                    </span><br />
+                    <span class="me-2" [ngClass]="{'text-success': passwordFormField?.value?.match('(?=.*[!@#$%^&*])'), 'text-danger': !passwordFormField?.value?.match('(?=.*[!@#$%^&*])')}">
+                      un caracter especial
+                    </span><br />
+                    <span class="me-2" [ngClass]="{'text-success': passwordFormField?.value?.match('.{8,}'), 'text-danger': !passwordFormField?.value?.match('.{8,}')}">
+                      ocho caracteres
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group" style="margin-top: 60px;">
+              <button (click)="onRegister()" class="btn btn-lg btn-dark w-100 fs-6">Registrarse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
