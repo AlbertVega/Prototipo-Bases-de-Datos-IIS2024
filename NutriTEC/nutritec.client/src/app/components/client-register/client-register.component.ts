@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { RegisterClient } from '../../interfaces/RegisterClient';
+import { ClientService } from '../../services/client';
 
 @Component({
   selector: 'app-client-register',
@@ -8,7 +10,7 @@ import { FormControl, AbstractControl, FormBuilder, FormGroup, Validators } from
 })
 export class ClientRegisterComponent {
   form!: FormGroup;
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private service: ClientService) { }
 
   ngOnInit(): void {
 
@@ -36,26 +38,28 @@ export class ClientRegisterComponent {
 
   onRegister() {
     if (this.form.valid) {
-      /*
+      
       // dividir los dos apellidos
       let Apellidos: string[] = this.form.value.apellidos.split(' ');
 
-      const request: RegisterPatient = {
+      const request: RegisterClient = {
         nombre: this.form.value.nombre,
         apellido1: Apellidos[0],
         apellido2: Apellidos[1],
-        cedula: this.form.value.cedula,
-        numeroTel: this.form.value.numeroTel,
-        provincia: this.form.value.provincia,
-        canton: this.form.value.canton,
-        distrito: this.form.value.distrito,
         nacimiento: this.form.value.nacimiento,
-        patologias: this.form.value.patologias,
-        tratamientos: this.form.value.tratamientos,
+        peso: this.form.value.peso,
+        IMC: this.form.value.IMC,
+        pais: this.form.value.pais,
+        cintura: this.form.value.cintura,
+        cuello: this.form.value.cuello,
+        caderas: this.form.value.caderas,
+        musculo: this.form.value.musculo,
+        grasa: this.form.value.grasa,
+        calorias: this.form.value.calorias,
         email: this.form.value.email,
-        password: this.form.value.password
+        password: this.form.value.password,
       }
-      this.service.setPatient(request).subscribe({
+      this.service.registerClient(request).subscribe({
         next: (data) => {
           if (data.status) {
             console.log(data.value);
@@ -63,9 +67,7 @@ export class ClientRegisterComponent {
             console.log("Error");
           }
         }
-      })*/
-      console.log("Registro exitoso");
-      console.log(this.form.value);
+      })
     } else {
       this.validateAllFormFields(this.form)
     }
