@@ -459,19 +459,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alber\\.nuget\\packages\\": {}
+    "C:\\Users\\feliv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
+      "projectUniqueName": "C:\\Users\\feliv\\OneDrive\\Documentos\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
       "projectName": "NutriTEC.Server",
-      "projectPath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
-      "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\obj\\",
+      "projectPath": "C:\\Users\\feliv\\OneDrive\\Documentos\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
+      "packagesPath": "C:\\Users\\feliv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\feliv\\OneDrive\\Documentos\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\feliv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -531,7 +531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-﻿namespace NutriTEC.Server.Data
+﻿namespace NutriTEC.Server.Data1
 {
     public class ResponseApi<T>
     {

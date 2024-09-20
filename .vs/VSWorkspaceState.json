@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\NutriTEC",
-    "\\NutriTEC\\NutriTEC.Server",
+    "\\NutriTEC\\nutritec.client",
     "\\NutriTEC\\NutriTEC.Server\\Data",
     "\\NutriTEC\\NutriTEC.Server\\DataBase"
   ],
-  "SelectedNode": "\\NutriTEC\\NutriTEC.Server\\DataBase",
+  "SelectedNode": "\\NutriTEC\\NutriTEC.sln",
   "PreviewInSolutionExplorer": false
 }
