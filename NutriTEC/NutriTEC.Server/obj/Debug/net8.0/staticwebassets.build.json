@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "67yjbGCliYo8XwRDNP51Tm7MYSlvZzqrmwYTA0M+5EM=",
+  "Hash": "XMaZYsQjq6Zjw+M238+Guwe7samMRx8mgmB7ISOc/t8=",
   "Source": "NutriTEC.Server",
   "BasePath": "_content/NutriTEC.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\nutritec.client.esproj",
+      "Identity": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\nutritec.client\\nutritec.client.esproj",
       "Version": 2,
       "Source": "nutritec.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

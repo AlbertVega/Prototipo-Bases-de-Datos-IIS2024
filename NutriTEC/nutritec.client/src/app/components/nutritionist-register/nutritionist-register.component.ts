@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { RegisterNutritionist } from '../../interfaces/RegisterNutritionist';
+import { NutritionistService } from '../../Services/nutritionist';
+
 
 @Component({
-  selector: 'app-nutritionist-register',
-  templateUrl: './nutritionist-register.component.html',
-  styleUrl: './nutritionist-register.component.css'
+    selector: 'app-nutritionist-register',
+    templateUrl: './nutritionist-register.component.html',
+    styleUrl: './nutritionist-register.component.css'
 })
-export class NutritionistRegisterComponent {
+export class NutritionistRegisterComponent implements OnInit { 
   form!: FormGroup;
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private service: NutritionistService) { }
 
   ngOnInit(): void {
 
@@ -34,8 +37,33 @@ export class NutritionistRegisterComponent {
 
   onRegister() {
     if (this.form.valid) {
-      console.log("Registro exitoso");
-      console.log(this.form.value);
+      // dividir los dos apellidos
+      let Apellidos: string[] = this.form.value.apellidos.split(' ');
+
+      const request: RegisterNutritionist = {
+        nombre: this.form.value.nombre,
+        apellido1: Apellidos[0],
+        apellido2: Apellidos[1],
+        nacimiento: this.form.value.nacimiento,
+        cedula: this.form.value.cedula,
+        codnutricionista: this.form.value.codnutricionista,
+        peso: this.form.value.peso,
+        IMC: this.form.value.IMC,
+        direccion: this.form.value.direccion,
+        numerotarjeta: this.form.value.numerotarjeta,
+        tipocobro: this.form.value.tipocobro,
+        email: this.form.value.email,
+        password: this.form.value.password
+      }
+      this.service.registerNutritionist(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+          } else {
+            console.log("Error");
+          }
+        }
+      })
     } else {
       this.validateAllFormFields(this.form)
     }
