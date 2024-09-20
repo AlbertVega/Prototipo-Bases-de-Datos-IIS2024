@@ -71,3 +71,4 @@ C:\Users\feliv\OneDrive\Documentos\GitHub\Prototipo-Bases-de-Datos-IIS2024\Nutri
 C:\Users\feliv\OneDrive\Documentos\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\NutriTEC.Server\obj\Debug\net8.0\NutriTEC.Server.genruntimeconfig.cache
 C:\Users\feliv\OneDrive\Documentos\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\NutriTEC.Server\obj\Debug\net8.0\ref\NutriTEC.Server.dll
 C:\Users\feliv\OneDrive\Documentos\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\NutriTEC.Server\bin\Debug\net8.0\DataBase\ADMIN.json
+C:\Users\alber\Documents\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\NutriTEC.Server\bin\Debug\net8.0\DataBase\ADMIN.json

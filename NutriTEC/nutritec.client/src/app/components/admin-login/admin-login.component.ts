@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { Login } from '../../interfaces/Login';
-import { ClientService } from '../../services/admin';
+import { Login } from '../../interfaces/AdminLogin';
+import { AdminService } from '../../services/admin';
 
 
 @Component({
@@ -12,7 +12,7 @@ import { ClientService } from '../../services/admin';
 export class AdminLoginComponent implements OnInit {
   form!: FormGroup;
 
-    constructor(private fb: FormBuilder, private service: ClientService) { }
+  constructor(private fb: FormBuilder, private service: AdminService) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({

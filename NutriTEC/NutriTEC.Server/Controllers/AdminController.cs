@@ -51,7 +51,7 @@ namespace NutriTEC.Server.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> AdminLogin([FromBody] Login_dto loginRequest)
+        public async Task<IActionResult> AdminLogin([FromBody] Admin_dto adminLog)
         {
             var response = new ResponseApi<string>();
 
@@ -62,37 +62,37 @@ namespace NutriTEC.Server.Controllers
 
                 // Leer el contenido del archivo .json
                 var jsonData = await System.IO.File.ReadAllTextAsync(filePath);
-                var clientes = JsonSerializer.Deserialize<List<ADMIN>>(jsonData) ?? new List<ADMIN>();
+                var admins = JsonSerializer.Deserialize<List<ADMIN>>(jsonData) ?? new List<ADMIN>();
 
-                // Buscar el cliente por correo
-                var client = clientes.FirstOrDefault(c => c.email == loginRequest.email);
+                // Buscar el admin por correo
+                var admin = admins.FirstOrDefault(c => c.email == adminLog.email);
 
-                if (client == null)
+                if (admin == null)
                 {
                     response.status = false;
                     response.message = "Usuario no registrado";
-                    Console.WriteLine("Usuario no registrado.");
 
                     return NotFound(response); // Enviar error 404 si no se encuentra el cliente
                 }
 
-                // Encriptar la contraseña ingresada con Base64
-                string enteredPassword = Convert.ToBase64String(Encoding.UTF8.GetBytes(loginRequest.password));
+                // Encriptar la contraseña ingresada
+                byte[] PW = PWEncryption.SHA256Encoding(adminLog.password);
 
 
-                // Comparar la contraseña encriptada con la almacenada en CLIENTE.json
-                if (!enteredPassword.Equals(client.password))
+                // Comparar la contraseña encriptada con la almacenada en ADMIN.json
+                if (PW.SequenceEqual(admin.password))
                 {
+                    // Si pasa la verificacion
+                    response.status = true;
+                    response.message = "Login exitoso";
+                    return Ok(response);
+                }else {
                     response.status = false;
                     response.message = "Contraseña incorrecta";
                     Console.WriteLine("Contraseña incorrecta.");
                     return Unauthorized(response); // Enviar error 401 si la contra no es correcta 
                 }
 
-                // Si pasa la verificacion
-                response.status = true;
-                response.message = "Login exitoso";
-                return Ok(response);
             }
             catch (Exception e)
             {
