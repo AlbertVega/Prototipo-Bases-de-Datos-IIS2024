@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { LoginNutritionist } from '../../interfaces/LoginNutritionist';
-import { NutritionistService } from '../../Services/nutritionist';
+import { NutritionistService } from '../../services/nutritionist';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nutritionist-login',
@@ -10,8 +11,9 @@ import { NutritionistService } from '../../Services/nutritionist';
 })
 export class NutritionistLoginComponent implements OnInit{
   form!: FormGroup;
+  validate: boolean = false;
 
-  constructor(private fb: FormBuilder, private service: NutritionistService) { }
+  constructor(private fb: FormBuilder, private service: NutritionistService, private router: Router) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({
@@ -29,14 +31,22 @@ export class NutritionistLoginComponent implements OnInit{
     this.service.nutritionistLogin(request).subscribe({
       next: (data) => {
         if (data.status) {
-          console.log("Login exitoso"); // Aqui se podria redireccionar
+          console.log("Login exitoso");
+          this.router.navigate(['nutritionist-view']);
+          this.validate = false
         } else {
+          this.validate = true
           console.log(data.message);
         }
       },
       error: (err) => {
+        this.validate = true
         console.log("Error en el login. Usuario o contraseña invalido", err);
       }
     });
+  }
+
+  test(): boolean {
+    return this.validate;
   }
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { RegisterNutritionist } from '../../interfaces/RegisterNutritionist';
-import { NutritionistService } from '../../Services/nutritionist';
+import { NutritionistService } from '../../services/nutritionist';
 
 
 @Component({
