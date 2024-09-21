@@ -1,10 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using System.Text.Json;
 using NutriTEC.Server.Utility;
-using System.Text;
-using NutriTEC.Server.Data1;
-using NutriTEC.Server.Models1;
+using NutriTEC.Server.Data;
+using NutriTEC.Server.Models;
 
 namespace NutriTEC.Server.Controllers
 {
@@ -92,6 +90,57 @@ namespace NutriTEC.Server.Controllers
                     Console.WriteLine("Contraseña incorrecta.");
                     return Unauthorized(response); // Enviar error 401 si la contra no es correcta 
                 }
+
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+                return StatusCode(StatusCodes.Status500InternalServerError, response); // Error de servidor
+            }
+        }
+
+        [HttpPost("consultar_cargo")]
+        public async Task<IActionResult> consultCharge([FromBody] ConsultCharge_dto consulta)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                // Construir la ruta del .json
+                var filePath = Path.Combine(_env.ContentRootPath, "DataBase", "NUTRITIONIST.json");
+
+                // Leer el contenido del archivo .json
+                var jsonData = await System.IO.File.ReadAllTextAsync(filePath);
+                var nutritionists = JsonSerializer.Deserialize<List<NUTRITIONIST>>(jsonData) ?? new List<NUTRITIONIST>();
+
+                // Filtrar la lista de nutricionistas por tipocobro
+                var filteredNutritionists = nutritionists.Where(n => n.tipo_cobro == consulta.tipocobro).ToList();
+
+                if (filteredNutritionists.Count == 0)
+                {
+                    response.status = false;
+                    response.message = "No se encontraron nutricionistas con el tipo de cobro especificado";
+                    return NotFound(response); // Enviar error 404 si no se encuentran nutricionistas
+                }
+                
+                var nutritionistsInfo = new List<NutritionistChargeInfo>();
+                foreach (var nutritionist in filteredNutritionists)
+                {
+                    nutritionistsInfo.Add(new NutritionistChargeInfo
+                    {
+                        correo = nutritionist.email,
+                        nombre = nutritionist.nombre,
+                        apellido1 = nutritionist.apellido1,
+                        apellido2 = nutritionist.apellido2,
+                        numero_tarjeta = nutritionist.numero_tarjeta
+                    });
+                }
+                response.status = true;
+                response.value = JsonSerializer.Serialize(nutritionistsInfo);
+                response.message = "Consulta exitosa";
+                return Ok(response);
+
 
             }
             catch (Exception e)

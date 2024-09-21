@@ -1,4 +1,4 @@
-﻿namespace NutriTEC.Server.Data1
+﻿namespace NutriTEC.Server.Data
 {
     public class ADMIN
     {

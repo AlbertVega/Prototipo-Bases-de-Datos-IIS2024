@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ResponseApi } from '../interfaces/response-api';
 import { Login } from '../interfaces/AdminLogin';
+import { ConsultCharge } from '../interfaces/ConsultCharge';
 
 @Injectable({
   providedIn: 'root'
@@ -19,6 +20,10 @@ export class AdminService {
 
   AdminLogin(request: Login): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + "Admin/login", request);
+  }
+
+  consultCharge(request: ConsultCharge): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Admin/consultar_cargo", request);
   }
 
 }

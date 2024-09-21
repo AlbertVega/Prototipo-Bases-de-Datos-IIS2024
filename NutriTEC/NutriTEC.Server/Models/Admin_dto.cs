@@ -1,4 +1,4 @@
-﻿namespace NutriTEC.Server.Models1
+﻿namespace NutriTEC.Server.Models
 {
     public class Admin_dto
     {

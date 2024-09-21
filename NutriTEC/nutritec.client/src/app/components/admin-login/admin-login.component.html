@@ -9,6 +9,7 @@
           <div class="row align-items-center">
             <div class="header-text mb-4">
               <h1>Bienvenido a NutriTEC</h1>
+              <small *ngIf="test()" class="text-danger">Correo o contraseña incorrectos</small>
             </div>
             <div class="text mb-3" style="text-align: left; padding-left: 15px;">
               <div class="small-container mb-3">
