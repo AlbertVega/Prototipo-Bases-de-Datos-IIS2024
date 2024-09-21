@@ -3,60 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\services\\nutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\services\\nutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\database\\nutritionist.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\database\\nutritionist.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\interfaces\\registernutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\interfaces\\registernutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\data\\nutritionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\data\\nutritionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\services\\nutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\services\\nutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\models\\nutritionistlogin_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\models\\nutritionistlogin_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\models\\nutritionist_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\models\\nutritionist_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\utility\\pwencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\utility\\pwencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1246651-2B8D-4680-BA69-8DDC8982D53C}|NutriTEC.Server\\NutriTEC.Server.csproj|solutionrelative:nutritec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|c:\\users\\alber\\documents\\github\\prototipo-bases-de-datos-iis2024\\nutritec\\nutritec.client\\src\\app\\interfaces\\loginnutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EBB8FE06-CE50-4267-A35A-8BFFE590268A}|nutritec.client\\nutritec.client.esproj|solutionrelative:nutritec.client\\src\\app\\interfaces\\loginnutritionist.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 347,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,117 +62,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nutritionist.ts",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\Services\\nutritionist.ts",
-              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\Services\\nutritionist.ts",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\Services\\nutritionist.ts",
-              "RelativeToolTip": "nutritec.client\\src\\app\\Services\\nutritionist.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-20T22:05:11.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "nutritionist-register.component.html",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html",
-              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html",
-              "RelativeToolTip": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T21:36:42.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "nutritionist-register.component.ts",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
-              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
-              "RelativeToolTip": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-20T21:38:04.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\appsettings.json",
-              "RelativeToolTip": "NutriTEC.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T23:54:20.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Program.cs",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Program.cs",
-              "RelativeToolTip": "NutriTEC.Server\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:28:32.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Nutritionist_dto.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\Nutritionist_dto.cs",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\Models\\Nutritionist_dto.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\Nutritionist_dto.cs",
-              "RelativeToolTip": "NutriTEC.Server\\Models\\Nutritionist_dto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:20:11.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "NUTRITIONIST.json",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\DataBase\\NUTRITIONIST.json",
               "RelativeDocumentMoniker": "NutriTEC.Server\\DataBase\\NUTRITIONIST.json",
               "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\DataBase\\NUTRITIONIST.json",
               "RelativeToolTip": "NutriTEC.Server\\DataBase\\NUTRITIONIST.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwDwAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T22:09:29.097Z",
+              "WhenOpened": "2024-09-21T00:48:32.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "NUTRITIONIST.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Data\\NUTRITIONIST.cs",
               "RelativeDocumentMoniker": "NutriTEC.Server\\Data\\NUTRITIONIST.cs",
               "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Data\\NUTRITIONIST.cs",
               "RelativeToolTip": "NutriTEC.Server\\Data\\NUTRITIONIST.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:29.562Z",
+              "WhenOpened": "2024-09-21T00:48:22.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nutritionist-register.component.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
+              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
+              "RelativeToolTip": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-21T00:47:43.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RegisterNutritionist.ts",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\interfaces\\RegisterNutritionist.ts",
-              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\interfaces\\RegisterNutritionist.ts",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\interfaces\\RegisterNutritionist.ts",
-              "RelativeToolTip": "nutritec.client\\src\\app\\interfaces\\RegisterNutritionist.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-20T21:57:23.272Z",
+              "Title": "NutritionistLogin_dto.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\NutritionistLogin_dto.cs",
+              "RelativeDocumentMoniker": "NutriTEC.Server\\Models\\NutritionistLogin_dto.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\NutritionistLogin_dto.cs",
+              "RelativeToolTip": "NutriTEC.Server\\Models\\NutritionistLogin_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T00:45:08.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Nutritionist_dto.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\Nutritionist_dto.cs",
+              "RelativeDocumentMoniker": "NutriTEC.Server\\Models\\Nutritionist_dto.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Models\\Nutritionist_dto.cs",
+              "RelativeToolTip": "NutriTEC.Server\\Models\\Nutritionist_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T00:43:32.244Z",
               "EditorCaption": ""
             },
             {
@@ -203,59 +133,49 @@
               "RelativeDocumentMoniker": "NutriTEC.Server\\Controllers\\NutritionistController.cs",
               "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Controllers\\NutritionistController.cs",
               "RelativeToolTip": "NutriTEC.Server\\Controllers\\NutritionistController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwEEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAG0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:08:54.278Z",
+              "WhenOpened": "2024-09-21T00:41:54.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nutritionist.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\Services\\nutritionist.ts",
+              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\Services\\nutritionist.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\Services\\nutritionist.ts",
+              "RelativeToolTip": "nutritec.client\\src\\app\\Services\\nutritionist.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-21T00:38:54.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CHANGELOG.md",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\CHANGELOG.md",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\CHANGELOG.md",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\CHANGELOG.md",
-              "RelativeToolTip": "NutriTEC.Server\\CHANGELOG.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-09-20T23:54:07.653Z",
+              "Title": "LoginNutritionist.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\interfaces\\LoginNutritionist.ts",
+              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\interfaces\\LoginNutritionist.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\interfaces\\LoginNutritionist.ts",
+              "RelativeToolTip": "nutritec.client\\src\\app\\interfaces\\LoginNutritionist.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-21T00:35:50.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResponseApi.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Data\\ResponseApi.cs",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\Data\\ResponseApi.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Data\\ResponseApi.cs",
-              "RelativeToolTip": "NutriTEC.Server\\Data\\ResponseApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:23:16.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PWEncryption.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Utility\\PWEncryption.cs",
-              "RelativeDocumentMoniker": "NutriTEC.Server\\Utility\\PWEncryption.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\Utility\\PWEncryption.cs",
-              "RelativeToolTip": "NutriTEC.Server\\Utility\\PWEncryption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:23:22.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "nutritionist-register.component.css",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css",
-              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css",
-              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css",
-              "RelativeToolTip": "nutritec.client\\src\\app\\components\\nutritionist-register\\nutritionist-register.component.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-20T21:37:34.641Z"
+              "DocumentIndex": 2,
+              "Title": "nutritionist-login.component.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts",
+              "RelativeDocumentMoniker": "nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts",
+              "RelativeToolTip": "nutritec.client\\src\\app\\components\\nutritionist-login\\nutritionist-login.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-21T00:33:39.534Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ResponseApi } from '../interfaces/response-api';
 import { RegisterNutritionist } from '../interfaces/RegisterNutritionist';
+import { LoginNutritionist } from '../interfaces/LoginNutritionist';
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +21,10 @@ export class NutritionistService {
 
   registerNutritionist(request: RegisterNutritionist): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + 'Nutritionist/register', request);
+  }
+
+  nutritionistLogin(request: LoginNutritionist): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Nutritionist/login", request);
   }
 
 }

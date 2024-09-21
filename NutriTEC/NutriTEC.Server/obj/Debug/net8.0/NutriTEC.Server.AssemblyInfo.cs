@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriTEC.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e200a260ef4c9f7bfe8f692b8d4f01b24013fa22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fbdfc243c8a703b0591b3b281652664938bdb2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriTEC.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriTEC.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
