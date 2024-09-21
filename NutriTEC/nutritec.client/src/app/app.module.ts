@@ -10,6 +10,11 @@ import { ClientRegisterComponent } from './components/client-register/client-reg
 import { ClientViewComponent } from './components/client-view/client-view.component';
 import { ClientSidenavComponent } from './components/client-view/client-sidenav/client-sidenav.component';
 import { ClientBodyComponent } from './components/client-view/client-body/client-body.component';
+import { AdminLoginComponent } from './components/admin-login/admin-login.component';
+import { AdminViewComponent } from './components/admin-view/admin-view.component';
+import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
+import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
+import { ReporteCobroComponent } from './components/admin-view/reporte-cobro/reporte-cobro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { ClientBodyComponent } from './components/client-view/client-body/client
     ClientRegisterComponent,
     ClientViewComponent,
     ClientSidenavComponent,
-    ClientBodyComponent
+    ClientBodyComponent,
+    AdminLoginComponent,
+    AdminViewComponent,
+    AdminBodyComponent,
+    AdminSidenavComponent,
+    ReporteCobroComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
