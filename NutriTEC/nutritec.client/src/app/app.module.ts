@@ -15,6 +15,13 @@ import { AdminViewComponent } from './components/admin-view/admin-view.component
 import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
 import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
 import { ReporteCobroComponent } from './components/admin-view/reporte-cobro/reporte-cobro.component';
+import { NutritionistLoginComponent } from './components/nutritionist-login/nutritionist-login.component';
+import { NutritionistRegisterComponent } from './components/nutritionist-register/nutritionist-register.component';
+import { NutritionistViewComponent } from './components/nutritionist-view/nutritionist-view.component';
+import { NutritionistBodyComponent } from './components/nutritionist-view/nutritionist-body/nutritionist-body.component';
+import { NutritionistSidenavComponent } from './components/nutritionist-view/nutritionist-sidenav/nutritionist-sidenav.component';
+import { GestionProductoComponent } from './components/nutritionist-view/gestion-producto/gestion-producto.component';
+import { AsociacionClienteComponent } from './components/nutritionist-view/asociacion-cliente/asociacion-cliente.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,14 @@ import { ReporteCobroComponent } from './components/admin-view/reporte-cobro/rep
     AdminViewComponent,
     AdminBodyComponent,
     AdminSidenavComponent,
-    ReporteCobroComponent
+    ReporteCobroComponent,
+    NutritionistLoginComponent,
+    NutritionistRegisterComponent,
+    NutritionistViewComponent,
+    NutritionistBodyComponent,
+    NutritionistSidenavComponent,
+    GestionProductoComponent,
+    AsociacionClienteComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

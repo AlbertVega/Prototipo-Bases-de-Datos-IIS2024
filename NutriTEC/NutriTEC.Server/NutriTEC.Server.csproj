@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="DataBase\CLIENTE.json" />
+    <None Remove="Utility\NewFile.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +24,10 @@
     <ProjectReference Include="..\nutritec.client\nutritec.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataBase\" />
   </ItemGroup>
 
 </Project>

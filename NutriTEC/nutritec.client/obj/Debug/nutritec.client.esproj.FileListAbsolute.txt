@@ -1,2 +1,3 @@
 C:\Users\alber\Documents\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\nutritec.client\obj\Debug\nutritec.client.esproj.CoreCompileInputs.cache
-C:\Users\feliv\OneDrive\Documentos\GitHub\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\nutritec.client\obj\Debug\nutritec.client.esproj.CoreCompileInputs.cache
+C:\Users\ffuch\OneDrive\Documents\TEC 2024 Semestre II\Prototipo-Bases-de-Datos-IIS2024\NutriTEC\nutritec.client\obj\Debug\nutritec.client.esproj.CoreCompileInputs.cache
+C:\Users\alber\Downloads\Vista Nutricionista\NutriTEC\nutritec.client\obj\Debug\nutritec.client.esproj.CoreCompileInputs.cache
