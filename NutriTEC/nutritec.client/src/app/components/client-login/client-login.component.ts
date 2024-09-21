@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { LoginClient } from '../../interfaces/LoginClient';
 import { ClientService } from '../../services/client';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-client-login',
@@ -10,8 +11,9 @@ import { ClientService } from '../../services/client';
 })
 export class ClientLoginComponent implements OnInit {
   form!: FormGroup;
+  validate: boolean = false;
 
-  constructor(private fb: FormBuilder, private service: ClientService) { }
+  constructor(private fb: FormBuilder, private service: ClientService, private router: Router) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({
@@ -29,7 +31,9 @@ export class ClientLoginComponent implements OnInit {
     this.service.clientLogin(request).subscribe({
       next: (data) => {
         if (data.status) {
-          console.log("Login exitoso"); // Aqui se podria redireccionar
+          console.log("Login exitoso");
+          this.router.navigate(['client-view']);
+          this.validate = false
         } else {
           console.log(data.message);
         }
@@ -38,5 +42,9 @@ export class ClientLoginComponent implements OnInit {
         console.log("Error en el login. Usuario o contraseña invalido", err);
       }
     });
+  }
+
+  test(): boolean {
+    return this.validate;
   }
 }

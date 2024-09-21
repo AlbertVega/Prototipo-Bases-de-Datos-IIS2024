@@ -13,6 +13,7 @@
             <div class="text mb-3" style="text-align: left; padding-left: 15px;">
               <div class="small-container mb-3">
                 <p class="fs-5">Inicio de sesión</p>
+                <small *ngIf="test()" class="text-danger">Correo o contraseña incorrectos</small>
               </div>
             </div>
             <form [formGroup]="form">
