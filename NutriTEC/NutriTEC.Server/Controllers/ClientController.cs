@@ -106,5 +106,59 @@ namespace NutriTEC.Server.Controllers
 
             return Ok(response);
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> nutritionistLogin([FromBody] ClientLogin_dto ClientLog)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                // Construir la ruta del .json
+                var filePath = Path.Combine(_env.ContentRootPath, "DataBase", "CLIENTE.json");
+
+                // Leer el contenido del archivo .json
+                var jsonData = await System.IO.File.ReadAllTextAsync(filePath);
+                var clients = JsonSerializer.Deserialize<List<CLIENTE>>(jsonData) ?? new List<CLIENTE>();
+
+                // Buscar el admin por correo
+                var client = clients.FirstOrDefault(c => c.email == ClientLog.email);
+
+                if (client == null)
+                {
+                    response.status = false;
+                    response.message = "Usuario no registrado";
+
+                    return NotFound(response); // Enviar error 404 si no se encuentra el cliente
+                }
+
+                // Encriptar la contraseña ingresada
+                byte[] PW = PWEncryption.SHA256Encoding(ClientLog.password);
+
+
+                // Comparar la contraseña encriptada con la almacenada en ADMIN.json
+                if (PW.SequenceEqual(client.password))
+                {
+                    // Si pasa la verificacion
+                    response.status = true;
+                    response.message = "Login exitoso";
+                    return Ok(response);
+                }
+                else
+                {
+                    response.status = false;
+                    response.message = "Contraseña incorrecta";
+                    Console.WriteLine("Contraseña incorrecta.");
+                    return Unauthorized(response); // Enviar error 401 si la contra no es correcta 
+                }
+
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+                return StatusCode(StatusCodes.Status500InternalServerError, response); // Error de servidor
+            }
+        }
     }
 }
