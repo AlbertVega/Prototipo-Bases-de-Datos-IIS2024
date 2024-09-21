@@ -22,7 +22,7 @@ namespace NutriTEC.Server.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> getClient()
+        public async Task<IActionResult> getNutritionist()
         {
             // Crear una instancia de ResponseApi
             var response = new ResponseApi<List<NUTRITIONIST>>();
@@ -52,7 +52,7 @@ namespace NutriTEC.Server.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> NutritionistRegister([FromBody] Nutritionist_dto newNutritionist)
+        public async Task<IActionResult> registerNutritionist([FromBody] Nutritionist_dto newNutritionist)
         {
             var response = new ResponseApi<Nutritionist_dto>();
 

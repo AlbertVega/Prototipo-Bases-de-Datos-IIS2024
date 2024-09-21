@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WfjkdLL0Q4Y=",
+  "dgSpecHash": "+ShXlsYe/z8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
+  "projectFilePath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.8\\microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

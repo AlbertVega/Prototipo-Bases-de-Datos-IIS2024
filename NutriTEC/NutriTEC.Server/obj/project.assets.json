@@ -464,11 +464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
+      "projectUniqueName": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
       "projectName": "NutriTEC.Server",
-      "projectPath": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
+      "projectPath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\NutriTEC.Server.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\NutriTEC.Server\\obj\\",
+      "outputPath": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",

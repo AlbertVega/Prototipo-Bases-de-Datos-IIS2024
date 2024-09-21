@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\alber\\Downloads\\Vista Nutricionista\\NutriTEC\\NutriTEC.Server\\..\\nutritec.client",
+"WorkingDirectory": "C:\\Users\\alber\\Documents\\GitHub\\Prototipo-Bases-de-Datos-IIS2024\\NutriTEC\\NutriTEC.Server\\..\\nutritec.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

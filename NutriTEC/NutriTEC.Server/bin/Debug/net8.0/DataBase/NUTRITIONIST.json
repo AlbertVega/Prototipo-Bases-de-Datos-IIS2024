@@ -1,10 +1,47 @@
 [
-
-
-
-
-
-
-
-
+  {
+    "nombre": "Pedro",
+    "apellido1": "Perico",
+    "apellido2": "Nu\u00F1ez",
+    "nacimiento": "2003-04-25",
+    "cedula": "702990605",
+    "cod_nutricionista": "2021048094",
+    "peso": 63,
+    "IMC": 10,
+    "direccion": "frente al tec",
+    "numero_tarjeta": "77777777777",
+    "tipo_cobro": "semanal",
+    "email": "pedroperico@gmail.com",
+    "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
+  },
+  {
+    "nombre": "Pepito",
+    "apellido1": "Zu\u00F1iga",
+    "apellido2": "Vega",
+    "nacimiento": "2003-04-25",
+    "cedula": "12121212121",
+    "cod_nutricionista": "2021048094",
+    "peso": 63,
+    "IMC": 10,
+    "direccion": "frente al tec",
+    "numero_tarjeta": "77777777777",
+    "tipo_cobro": "mensual",
+    "email": "pepitozuniga@gmail.com",
+    "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
+  },
+  {
+    "nombre": "Pepito",
+    "apellido1": "Zu\u00F1iga",
+    "apellido2": "Vega",
+    "nacimiento": "2003-04-25",
+    "cedula": "12121212121",
+    "cod_nutricionista": "2021048094",
+    "peso": 63,
+    "IMC": 10,
+    "direccion": "frente al tec",
+    "numero_tarjeta": "77777777777",
+    "tipo_cobro": "mensual",
+    "email": "pepi@gmail.com",
+    "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
+  }
 ]
