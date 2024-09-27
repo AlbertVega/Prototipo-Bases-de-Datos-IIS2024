@@ -62,6 +62,7 @@ export class ClientRegisterComponent {
       this.service.registerClient(request).subscribe({
         next: (data) => {
           if (data.status) {
+            alert('Cliente registrado exitosamente');
             console.log(data.value);
           } else {
             console.log("Error");

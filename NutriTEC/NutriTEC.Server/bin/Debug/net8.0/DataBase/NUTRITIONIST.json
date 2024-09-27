@@ -58,5 +58,20 @@
     "tipo_cobro": "anual",
     "email": "mario@gmail.com",
     "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
+  },
+  {
+    "nombre": "Oliver",
+    "apellido1": "Rivera",
+    "apellido2": "Mora",
+    "nacimiento": "2003-04-25",
+    "cedula": "121333728",
+    "cod_nutricionista": "1121327328",
+    "peso": 90,
+    "IMC": 10,
+    "direccion": "a",
+    "numero_tarjeta": "1283710",
+    "tipo_cobro": "semanal",
+    "email": "oliver@gmail.com",
+    "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
   }
 ]

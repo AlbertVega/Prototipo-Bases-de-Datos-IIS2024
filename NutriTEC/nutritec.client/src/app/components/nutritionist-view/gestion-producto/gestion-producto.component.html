@@ -1,1 +1,61 @@
-<p>gestion-producto works!</p>
+<body>
+  <div class="requester-form">
+    <h1>Registro de nuevos productos</h1>
+    <h3>Ingrese los datos del producto</h3>
+    <form [formGroup]="form">
+      <div class="form-group">
+        <label for="cod_barras">Código de barras</label>
+        <input formControlName="cod_barras" type="text" class="form-control" id="cod_barras" placeholder="Ingrese el código de barras">
+      </div>
+      <div class="form-group">
+        <label for="tamano_porcion">Tamaño de porción</label>
+        <input formControlName="tamano_porcion" type="text" class="form-control" id="tamano_porcion" placeholder="Ingrese el tamaño de la porción">
+      </div>
+      <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <input formControlName="descripcion" type="text" class="form-control" id="descripcion" placeholder="Ingrese una descripción del producto">
+      </div>
+      <div class="form-group">
+        <label for="proteina">Proteína</label>
+        <input formControlName="proteina" type="text" class="form-control" id="proteina" placeholder="Ingrese la cantidad de proteína">
+      </div>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input formControlName="nombre" type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre del producto">
+      </div>
+      <div class="form-group">
+        <label for="energia">Energía</label>
+        <input formControlName="energia" type="text" class="form-control" id="energia" placeholder="Ingrese la cantidad de energía que aporta">
+      </div>
+      <div class="form-group">
+        <label for="carbohidratos">Carbohidratos</label>
+        <input formControlName="carbohidratos" type="text" class="form-control" id="carbohidratos" placeholder="Ingrese la cantidad de carbohidratos">
+      </div>
+      <div class="form-group">
+        <label for="hierro">Hierro</label>
+        <input formControlName="hierro" type="text" class="form-control" id="hierro" placeholder="Ingrese la cantidad de hierro">
+      </div>
+      <div class="form-group">
+        <label for="calcio">Calcio</label>
+        <input formControlName="calcio" type="text" class="form-control" id="calcio" placeholder="Ingrese la cantidad de calcio">
+      </div>
+      <div class="form-group">
+        <label for="vitaminas">Vitaminas</label>
+        <input formControlName="vitaminas" type="text" class="form-control" id="vitaminas" placeholder="Ingrese la cantidad de vitaminas">
+      </div>
+      <div class="form-group">
+        <label for="sodio">Sodio</label>
+        <input formControlName="sodio" type="text" class="form-control" id="sodio" placeholder="Ingrese la cantidad de sodio">
+      </div>
+      <div class="form-group">
+        <label for="grasa">Grasa</label>
+        <input formControlName="grasa" type="text" class="form-control" id="grasa" placeholder="Ingrese la cantidad de grasa">
+      </div>
+
+      <div class="form-group">
+        <button (click)="onRegisterProduct()" class="btn btn-primary btn-add">Añadir</button>
+      </div>
+    </form>
+  </div>
+
+</body>

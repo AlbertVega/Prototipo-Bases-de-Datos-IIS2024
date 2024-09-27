@@ -1,0 +1,30 @@
+[
+  {
+    "cod_barras": "12830172",
+    "tamano_porcion": "100",
+    "descripcion": "a",
+    "proteina": "a",
+    "nombre": "a",
+    "energia": "a",
+    "carbohidratos": "a",
+    "hierro": "a",
+    "calcio": "a",
+    "vitaminas": "a",
+    "sodio": "a",
+    "grasa": "a"
+  },
+  {
+    "cod_barras": "12830112212121",
+    "tamano_porcion": "100",
+    "descripcion": "a",
+    "proteina": "b",
+    "nombre": "c",
+    "energia": "d",
+    "carbohidratos": "e",
+    "hierro": "f",
+    "calcio": "g",
+    "vitaminas": "h",
+    "sodio": "i",
+    "grasa": "j"
+  }
+]

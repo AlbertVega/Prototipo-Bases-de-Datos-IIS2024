@@ -17,5 +17,6 @@
         public required int calorias { get; set; }
         public required string email { get; set; }
         public required byte[] password { get; set; }
+        public string fk_cod_nutricionista { get; set; }
     }
 }

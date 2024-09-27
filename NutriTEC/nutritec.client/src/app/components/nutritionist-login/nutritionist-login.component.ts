@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { LoginNutritionist } from '../../interfaces/LoginNutritionist';
 import { NutritionistService } from '../../services/nutritionist';
 import { Router } from '@angular/router';
+import { ShareEmailService } from '../../services/ShareEmail';
 
 @Component({
   selector: 'app-nutritionist-login',
@@ -13,7 +14,7 @@ export class NutritionistLoginComponent implements OnInit{
   form!: FormGroup;
   validate: boolean = false;
 
-  constructor(private fb: FormBuilder, private service: NutritionistService, private router: Router) { }
+  constructor(private fb: FormBuilder, private service: NutritionistService, private router: Router, private sharedService: ShareEmailService) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({
@@ -32,6 +33,7 @@ export class NutritionistLoginComponent implements OnInit{
       next: (data) => {
         if (data.status) {
           console.log("Login exitoso");
+          this.sharedService.setEmail(request.email); // Guarda el email en el servicio compartido
           this.router.navigate(['nutritionist-view']);
           this.validate = false
         } else {

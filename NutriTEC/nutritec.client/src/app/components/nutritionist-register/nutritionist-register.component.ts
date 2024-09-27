@@ -58,6 +58,7 @@ export class NutritionistRegisterComponent implements OnInit {
       this.service.registerNutritionist(request).subscribe({
         next: (data) => {
           if (data.status) {
+            alert('Nutricionista registrado exitosamente');
             console.log(data.value);
           } else {
             console.log("Error");

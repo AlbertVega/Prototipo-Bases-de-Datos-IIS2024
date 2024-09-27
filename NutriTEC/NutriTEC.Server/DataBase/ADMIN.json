@@ -1,27 +1,3 @@
 [
-  {
 
-    "email": "juan.perez@example.com",
-    "password": "cGFzc3dvcmQxMjM="
-  },
-  {
-
-    "email": "maria.rodriguez@example.com",
-    "password": "c2VjdXJlcGFzcw=="
-  },
-  {
-
-    "email": "carlos.martinez@example.com",
-    "password": "cGFzc3dvcmQ="
-  },
-  {
-
-    "email": "albert@gmail.com",
-    "password": "wbHvquc/2LtYYtsguHnoR+DtDVonI1JqgmcRqFbq090="
-  },
-  {
-
-    "email": "test@estudiantec.cr",
-    "password": "a9vtF6APY0vfAYMAv21x3Cdtt9WIkNdCkAAe8t0S9j0="
-  }
 ]

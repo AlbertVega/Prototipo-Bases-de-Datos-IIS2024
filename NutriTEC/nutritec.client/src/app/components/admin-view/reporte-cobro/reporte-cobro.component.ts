@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AdminService } from '../../../services/admin';
 import { ConsultCharge } from '../../../interfaces/ConsultCharge';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 interface NutritionistChargeInfo {
   correo: string;
@@ -52,6 +54,26 @@ export class ReporteCobroComponent implements OnInit {
       })
     } else {
       console.log("Formulario invalido");
+    }
+  }
+
+  printPDF() {
+    const element = document.getElementById('infoCobro');
+    if (element) {
+      html2canvas(element).then(canvas => {
+        const imgData = canvas.toDataURL('image/png');
+        const doc = new jsPDF();
+        const imgProps = doc.getImageProperties(imgData);
+        const pdfWidth = doc.internal.pageSize.getWidth();
+        const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+        doc.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+        doc.save('reporte_de_cobro.pdf');
+      }).catch(error => {
+        console.error("Error al generar el PDF:", error);
+      });
+    } else {
+      console.error("Elemento con id 'infoCobro' no encontrado.");
     }
   }
 
